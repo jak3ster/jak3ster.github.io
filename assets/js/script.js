@@ -12,10 +12,27 @@ const projects = [
             express, express-handlebars, express-session, mysql2, sequelize, moment, socket.io`,
         link: "https://medicalportalgroup2.herokuapp.com/",
         github: "https://github.com/jak3ster/Medical-Portal/",
-        image: "assets/images/medical-portal-demo.png",
-        image_hover: "assets/demo/medical-portal-demo.gif",
+        image: "assets/images/medical-portal.png",
+        image_hover: "assets/demo/medical-portal.gif",
         alt_image: "Screenshot of Medical Portal",
         id: "medical_portal",
+    },
+    {
+        project_name: "My Tech Blog",
+        description: `A CMS-style blog site similar to a Wordpress site, where developers 
+                    can publish their blog posts and comment on other developers’ posts as 
+                    well. Site is built completely from scratch and deployed on Heroku and 
+                    follows the MVC paradigm in its architectural structure, using Handlebars.js 
+                    as the templating language, Sequelize as the ORM, and the express-session 
+                    npm package for authentication.`,
+        features: `JavaScript, Node.js, MySQL, npm packages: bcrypt, connect-session-sequelize, 
+                dotenv, express, express-handlebars, express-session, mysql2, sequelize`,
+        link: "https://github.com/jak3ster/My-Tech-Blog/",
+        github: "https://jak3ster-techblog.herokuapp.com/",
+        image: "assets/images/my-tech-blog.png",
+        image_hover: "assets/demo/my-tech-blog.gif",
+        alt_image: "Screenshot of My Tech Blog",
+        id: "tech_blog",
     },
     {
         project_name: "My ORM Back End",
@@ -25,21 +42,39 @@ const projects = [
         features: `JavaScript, Node.js, MySQL, npm packages: express, sequelize, mysql2, dotenv`,
         link: "https://drive.google.com/file/d/147SxgXKnWxBOA2dynKkdv-qzDa37urxc/view?usp=sharing/",
         github: "https://github.com/jak3ster/My-ORM-Back-End",
-        image: "assets/images/my-orm-back-end-demo.png",
-        image_hover: "assets/demo/my-orm-back-end-demo.gif",
+        image: "assets/images/my-orm-back-end.png",
+        image_hover: "assets/demo/my-orm-back-end.gif",
         alt_image: "Screenshot of My ORM Back End",
         id: "my_orm_back_end",
     },
     {
-        project_name: "Timed Code Quiz",
-        description: "A timed quiz on HTML/JavaScript that stores high scores.",
-        features: "HTML, CSS, JavaScript, jQuery, Bootstrap",
-        link: "https://jak3ster.github.io/My-Timed-Code-Quiz/",
-        github: "https://github.com/jak3ster/My-Timed-Code-Quiz",
-        image: "assets/images/my-timed-code-quiz-demo.png",
-        image_hover: "assets//demo//my-timed-code-quiz-demo.gif",
-        alt_image: "Screenshot of Code Quiz",
-        id: "code_quiz",
+        project_name: "My Employee Management System",
+        description: `A console application Content Management Systems for 
+                    managing a company's employees where it can view and 
+                    manage the departments, roles, and employees.`,
+        features: "JavaScript, Node.js, MySQL, npm packages: Inquirer, Figlet, mysql",
+        link: "https://drive.google.com/file/d/1aEthJy32mQkgJQb6WPvvUp8xnub3h3DK/view?usp=sharing/",
+        github: "https://github.com/jak3ster/my-employee-management-system/",
+        image: "assets/images/my-employee-management-system.png",
+        image_hover: "assets/demo/my-employee-management-system.gif",
+        alt_image: "Screenshot of My Employee Management System",
+        id: "employee_management_system",
+    },
+    {
+        project_name: "My Note Taker",
+        description: `This is for users that need to keep track of a lot of information, 
+                    it’s easy to forget or be unable to recall something important. Being 
+                    able to take persistent notes allows users to have written information 
+                    available when needed. The application can be used to write, save, and 
+                    delete notes using an express backend and save and retrieve notes data 
+                    from a JSON file.`,
+        features: "JavaScript, Node.js, Express",
+        link: "https://warm-mountain-90845.herokuapp.com/",
+        github: "https://github.com/jak3ster/My-Note-Taker/",
+        image: "assets/images/my-note-taker.png",
+        image_hover: "assets/demo/my-note-taker.gif",
+        alt_image: "Screenshot of Note Taker",
+        id: "note_taker",
     },
     {
         project_name: "Updated Portfolio #1",
@@ -52,52 +87,19 @@ const projects = [
         alt_image: "Screenshot of Updated Portfolio #1",
         id: "updated_portfolio",
     },
-    {
-        project_name: "Password Generator",
-        description: "JavaScript Password Generator.",
-        features: "HTML, CSS",
-        link: "https://jak3ster.github.io/My-Password-Generator/",
-        github: "https://github.com/jak3ster/My-Password-Generator",
-        image: "assets/images/my-password-generator-demo.png",
-        image_hover: "assets//demo//my-password-generator-demo.gif",
-        alt_image: "Screenshot of Password Generator",
-        id: "password_generator",
-    },
-    {
-        project_name: "Password Generator",
-        description: "JavaScript Password Generator.",
-        features: "HTML, CSS",
-        link: "https://jak3ster.github.io/My-Password-Generator/",
-        github: "https://github.com/jak3ster/My-Password-Generator",
-        image: "assets/images/my-password-generator-demo.png",
-        image_hover: "assets//demo//my-password-generator-demo.gif",
-        alt_image: "Screenshot of Password Generator",
-        id: "password_generator",
-    },
-    {
-        project_name: "Work Day Scheduler",
-        description:
-            "A simple calendar application that allows a user to save events for each hour of the day.",
-        features: "HTML, CSS, jQuery, Bootstrap, Moment.js",
-        link: "https://jak3ster.github.io/My-Work-Day-Scheduler/",
-        github: "https://github.com/jak3ster/My-Work-Day-Scheduler",
-        image: "assets/images/my-work-day-scheduler-demo.png",
-        image_hover: "assets//demo//my-work-day-scheduler-demo.gif",
-        alt_image: "Screenshot of Work Day Scheduler",
-        id: "word_day_scheduler",
-    },
-    {
-        project_name: "Weather Dashboard",
-        description: "Weather dashboard that uses an API to retrieve weather data.",
-        features:
-            "HTML, CSS, Server-side API, JavaScript, jQuery, Bootstrap, Moment.js",
-        link: "https://jak3ster.github.io/My-Weather-Dashboard/",
-        github: "https://github.com/jak3ster/My-Weather-Dashboard",
-        image: "assets/images/my-weather-dashboard-demo.png",
-        image_hover: "assets//demo//my-weather-dashboard-demo.gif",
-        alt_image: "Screenshot of Weather Dashboard",
-        id: "weather_dashboard",
-    },
+    
+    // {
+    //     project_name: "Weather Dashboard",
+    //     description: "Weather dashboard that uses an API to retrieve weather data.",
+    //     features:
+    //         "HTML, CSS, Server-side API, JavaScript, jQuery, Bootstrap, Moment.js",
+    //     link: "https://jak3ster.github.io/My-Weather-Dashboard/",
+    //     github: "https://github.com/jak3ster/My-Weather-Dashboard",
+    //     image: "assets/images/my-weather-dashboard-demo.png",
+    //     image_hover: "assets//demo//my-weather-dashboard-demo.gif",
+    //     alt_image: "Screenshot of Weather Dashboard",
+    //     id: "weather_dashboard",
+    // },
 ];
 
 var portfolio_row = document.querySelector("#portfolio-row");

@@ -39,7 +39,7 @@ This is an updated portfolio after building a full-stack web application and add
 
 ## Demo
 
-![alt text](./assets/images/my-updated-porfolio-page-demo.png)
+![alt text](./assets/images/updated_portfolio2_demo.png)
 
 ## Website & Repository
 

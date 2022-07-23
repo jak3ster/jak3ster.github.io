@@ -1,4 +1,4 @@
-# Updated Portfolio Page #2 | jak3ster.github.io
+# Updated Portfolio Page #2
 
 This is an updated portfolio after building a full-stack web application and additional projects to share and other materials to build toward being employer-competitive.
 
@@ -20,15 +20,15 @@ This is an updated portfolio after building a full-stack web application and add
 
 ## Features
 
-* Displaying full name with contact information including email and phone number
-* Links to GitHub profile and LinkedIn profile
-* A Link to a downloadable PDF of resume
-* Project 1 and exemplary homework assignments including the following:
-  * Screenshot of the deployed application
-  * Title
+* Displaying contact information, including email and phone number
+* Links to your GitHub profile and LinkedIn profile
+* Link to a downloadable PDF of your resume
+* Showcasing 3+ examples of both homework and deployed projects. Each project includes the following:
+  * Project title
   * Link to the deployed version
   * Link to the GitHub repository
-* Polished, mobile-responsive user interface
+  * Screenshot of the deployed application
+* A polished, mobile-responsive user interface.
 
 ## Technologies Used
 
@@ -39,8 +39,8 @@ This is an updated portfolio after building a full-stack web application and add
 
 ## Website & Repository
 
-* Github: <https://github.com/jak3ster/jak3ster.github.io/>
-* Deployed: <https://jak3ster.github.io/>
+* [Github](https://github.com/jak3ster/jak3ster.github.io/)
+* [jak3ster.github.io](https://jak3ster.github.io/)
 
 ## Demo
 

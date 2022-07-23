@@ -37,11 +37,11 @@ This is an updated portfolio after building a full-stack web application and add
 * Bootstrap
 * JavaScript
 
-## Demo
-
-![alt text](./assets/images/updated_portfolio2_demo.png)
-
 ## Website & Repository
 
 * Github: <https://github.com/jak3ster/jak3ster.github.io/>
 * Deployed: <https://jak3ster.github.io/>
+
+## Demo
+
+![alt text](./assets/images/updated_portfolio2_demo.png)
